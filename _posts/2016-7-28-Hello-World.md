@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Distilling the Knowledge in a Neural Network (https://arxiv.org/abs/1503.02531)
+title: Distilling the Knowledge in a Neural Network 
 ---
 The author describes a different kind of training - "Distillation" to transfer the knowledge from
 a complex ensemble of models to a small model which is more suitable for deployment. The core idea is that the relative probabilities of incorrect answers assigned by the complex model carries a lot of information about how the model is trying to generalize. Using Distillation, the small model tries to learn this generalization information. Later, he also discuss the specialist framework in the case of very large dataset like the JFT (google).
